@@ -5,7 +5,7 @@ release.
 
 | Public area | Included |
 | --- | --- |
-| `data/wet/**` | FD_wqp search-space files, frozen order/partition, round-level train/test/all CSVs, paper prediction tensors, and compact experiment tables |
+| `data/wet/**` | FD_wqp search-space and inference-space files, frozen order/partition, round-level train/test/all CSVs, paper prediction tensors, and compact experiment tables |
 | `data/dry/**` | EDBO search-space files, observed split, expert order/partition, data-volume-5 regression tables and prediction tensor |
 | `src/chembomas/bo_core/**` | Reusable MCTS and Bayesian-optimization implementation |
 | `src/chembomas/wet/fd_wqp/**` | FD_wqp design implementation and command-line adapter |
