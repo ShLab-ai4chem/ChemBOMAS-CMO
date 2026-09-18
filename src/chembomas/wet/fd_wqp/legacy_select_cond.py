@@ -1,20 +1,22 @@
 import os
 import warnings
 from collections import Counter
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from ...paths import results_root
 
 warnings.filterwarnings("ignore")
 
 # ===== 路径配置（参考 run_realexp.py）=====
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # ChemBOMAS-prod
 PROJECT_NAME = "FD_wqp"
 ROUND_NAME = "round_7"
 
-BO_DIR = f"{BASE_DIR}/Data/03-bo/{PROJECT_NAME}/{ROUND_NAME}"
+_RESULTS_BASE = Path(os.environ.get("CHEMBOMAS_RESULTS_DIR", results_root("wet") / PROJECT_NAME))
+BO_DIR = str(_RESULTS_BASE / ROUND_NAME)
 INPUT_DIR = BO_DIR
 DESIGNED_EXP_FILE_TEMPLATE = "ChemBOMAS_design.csv"  # 输出推荐实验结果路径模板
 BASIC_OUTPUT_FILE = f"{BO_DIR}/{DESIGNED_EXP_FILE_TEMPLATE.split('.')[0]}_selected_basic.csv"
