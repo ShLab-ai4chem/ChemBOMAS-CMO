@@ -10,6 +10,11 @@ Completed:
 - removal of private absolute paths, `Rag-Cluster`, model checkpoints, logs, and other tasks;
 - smoke-tested EDBO tree initialization and FD_wqp round-0 design.
 
+The current checkpoint carries the paper-facing figures and summary tables. The
+original figure-generation scripts still contain task-specific plotting assumptions
+and are intentionally not exposed as final public APIs yet; they should be ported to
+the same path-safe adapter pattern before the public release tag.
+
 Before external publication:
 
 1. replace the Hugging Face placeholder and record model revision/checksums;
