@@ -7,9 +7,9 @@ condition discovery in two settings:
 - **FD_wqp**: wet-laboratory reaction-condition design;
 - **EDBO**: dry-experiment benchmark and ablation studies.
 
-The language-model checkpoints and prediction tensors are distributed separately.
-After downloading the corresponding artifact, pass its local path with
-`--predictions` or `--pseudo-predictions`.
+The prediction tensors used by the paper are included with the corresponding data
+directories. Large language-model checkpoints are distributed separately; external
+prediction files can still be supplied through the command-line options.
 
 ## Repository layout
 
@@ -42,21 +42,25 @@ pytest -q
 
 ## Running the public entry points
 
-FD_wqp round design (requires the separately released `LLM_predict.pt` for rounds
-after round 0):
+FD_wqp round design:
 
 ```bash
 PYTHONPATH=src python -m chembomas.wet.fd_wqp.run \
-  --round round_7 --predictions /path/to/LLM_predict.pt --kappa 0.1
+  --round round_7 --kappa 0.1
 ```
 
-EDBO benchmark (the prediction tensor is optional; without it the code records a
-deterministic observed-value fallback for smoke testing):
+The command uses the bundled round-specific prediction tensor by default. Use
+`--predictions /path/to/LLM_predict.pt` to override it.
+
+EDBO benchmark:
 
 ```bash
 PYTHONPATH=src python -m chembomas.dry.edbo.run \
-  --iteration 20 --pseudo-predictions /path/to/LLM_predict.pt
+  --iteration 20
 ```
+
+The bundled `data_volume_5` prediction tensor is used by default. Use
+`--pseudo-predictions /path/to/LLM_predict.pt` to override it.
 
 See [docs/data-manifest.md](docs/data-manifest.md) for the data contents and
 [docs/model-release.md](docs/model-release.md) for the external model artifact

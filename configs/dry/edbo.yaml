@@ -1,7 +1,7 @@
 task: EDBO
 scope: dry
 data_root: data/dry
-prediction_artifact: external/LLM_predict.pt
+prediction_artifact: data/dry/02-regression/EDBO/data_volume_5/LLM_predict.pt
 partition_method: expert
 dataset_name: EDBO
 objective: [Yield, Cost]

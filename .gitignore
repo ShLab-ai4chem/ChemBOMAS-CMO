@@ -7,6 +7,8 @@ __pycache__/
 LLM_predict.pt
 *_raw_results_*.pt
 !data/dry/00-basic/EDBO/new_b30_50.pt
+!data/wet/02-regression/FD_wqp/round_*/LLM_predict.pt
+!data/dry/02-regression/EDBO/data_volume_5/LLM_predict.pt
 checkpoints/
 model_weights/
 wandb/

@@ -1,20 +1,20 @@
 # External model artifact contract
 
-Large-language-model weights and generated prediction tensors are published
-separately on Hugging Face: **`https://huggingface.co/<organization>/<model-name>`**.
-This code release does not embed checkpoints or private machine paths. Replace this
+Large-language-model weights are published separately on Hugging Face:
+**`https://huggingface.co/<organization>/<model-name>`**. The prediction tensors
+used by the paper are included in this repository alongside their input tables, so
+the BO experiments do not require downloading model weights. Replace this
 placeholder with the final model URL before publication.
 
 The public entry points accept a local prediction tensor:
 
 ```bash
-python -m chembomas.wet.fd_wqp.run --round round_7 \
-  --predictions /path/to/LLM_predict.pt
+python -m chembomas.wet.fd_wqp.run --round round_7
 python -m chembomas.dry.edbo.run \
-  --pseudo-predictions /path/to/LLM_predict.pt
+  --iteration 20
 ```
 
-The tensor must be readable by `torch.load` and contain one prediction per row of
-the corresponding inference space. The released data tables document row order;
-the code does not silently reorder candidates. Replace the placeholder Hugging Face
-URL in this file before publication and record the exact model revision/checksum.
+The bundled tensors are readable by `torch.load` and contain one prediction per row
+of the corresponding inference space. External tensors may be passed through the
+command-line overrides; the code does not silently reorder candidates. Record the
+exact model revision/checksum when the model URL is finalized.
