@@ -1,32 +1,32 @@
 # ChemBOMAS-CMO
 
-Public, paper-linked release of the ChemBOMAS code used for the two application tracks:
+ChemBOMAS-CMO is the accompanying code and data release for the ChemBOMAS paper.
+It provides reproducible examples of Bayesian optimization for chemical reaction
+condition discovery in two settings:
 
-- **FD_wqp** — wet-lab reaction-condition design (from `ChemBOMAS-prod`)
-- **EDBO** — dry-experiment benchmark and ablations (from `ChemBOMAS-V1`)
+- **FD_wqp**: wet-laboratory reaction-condition design;
+- **EDBO**: dry-experiment benchmark and ablation studies.
 
-Only these two named tasks are included. Other datasets, exploratory runs, private
-clustering services, credentials, logs, checkpoints, and model weights are excluded.
-The language-model checkpoints are released separately; pass a downloaded prediction
-tensor with `--predictions` or `--pseudo-predictions`.
+The language-model checkpoints and prediction tensors are distributed separately.
+After downloading the corresponding artifact, pass its local path with
+`--predictions` or `--pseudo-predictions`.
 
 ## Repository layout
 
 ```text
 src/chembomas/       reusable BO/MCTS code and task entry points
 data/wet/            FD_wqp inputs and compact CSV result tables
-data/dry/            EDBO inputs and compact regression/BO tables
+data/dry/            EDBO inputs and compact regression tables
 results/             paper-facing summaries and figures
-configs/             documented experiment settings
-scripts/             shell entry points
-docs/                provenance, data and model-release notes
+configs/             experiment settings
+scripts/             command-line launchers
+docs/                data and model-release notes
 tests/               import and layout smoke tests
 ```
 
-The `00-basic`, `01-cluster`, `02-regression`, and `03-bo` directories under each
-scope mirror the stages used by the original experiments. The copied `legacy_*.py`
-files are kept as an audit trail; the public `run.py` adapters provide repository-
-relative paths and explicit command-line arguments.
+The numbered data directories describe the preparation, clustering, regression, and
+optimization stages. The public `run.py` modules provide repository-relative paths
+and explicit command-line arguments.
 
 ## Installation
 
@@ -58,9 +58,9 @@ PYTHONPATH=src python -m chembomas.dry.edbo.run \
   --iteration 20 --pseudo-predictions /path/to/LLM_predict.pt
 ```
 
-See [docs/data-manifest.md](docs/data-manifest.md) for the exact inclusion/exclusion
-policy and [docs/model-release.md](docs/model-release.md) for the external model
-artifact contract.
+See [docs/data-manifest.md](docs/data-manifest.md) for the data contents and
+[docs/model-release.md](docs/model-release.md) for the external model artifact
+contract.
 
 ## Citation and license
 
