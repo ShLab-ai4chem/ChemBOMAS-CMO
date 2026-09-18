@@ -1,0 +1,465 @@
+{
+    "atom_stereo_count": 0,
+    "atoms": [
+        {
+            "aid": 1,
+            "number": 19,
+            "element": "K",
+            "y": -0.25,
+            "x": 2,
+            "charge": 1
+        },
+        {
+            "aid": 2,
+            "number": 8,
+            "element": "O",
+            "y": 0.25,
+            "x": 2.866,
+            "charge": -1
+        },
+        {
+            "aid": 3,
+            "number": 1,
+            "element": "H",
+            "y": -0.06,
+            "x": 3.403
+        }
+    ],
+    "bond_stereo_count": 0,
+    "bonds": [
+        {
+            "aid1": 1,
+            "aid2": 2,
+            "order": 7
+        },
+        {
+            "aid1": 2,
+            "aid2": 3,
+            "order": 1
+        }
+    ],
+    "cactvs_fingerprint": "00000000000000000010000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "canonical_smiles": None,
+    "charge": 0,
+    "cid": 14797,
+    "complexity": 2,
+    "conformer_id_3d": None,
+    "conformer_rmsd_3d": None,
+    "coordinate_type": "2d",
+    "covalent_unit_count": 2,
+    "defined_atom_stereo_count": 0,
+    "defined_bond_stereo_count": 0,
+    "effective_rotor_count_3d": None,
+    "elements": [
+        "K",
+        "O",
+        "H"
+    ],
+    "exact_mass": "55.96644614",
+    "feature_selfoverlap_3d": None,
+    "fingerprint": "00000371000020000040000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "h_bond_acceptor_count": 1,
+    "h_bond_donor_count": 1,
+    "heavy_atom_count": 2,
+    "inchi": "InChI=1S/K.H2O/h;1H2/q+1;/p-1",
+    "inchikey": "KWYUFKZDYYNOTN-UHFFFAOYSA-M",
+    "isomeric_smiles": None,
+    "isotope_atom_count": 0,
+    "iupac_name": "potassium;hydroxide",
+    "mmff94_energy_3d": None,
+    "mmff94_partial_charges_3d": None,
+    "molecular_formula": "HKO",
+    "molecular_weight": "56.106",
+    "monoisotopic_mass": "55.96644614",
+    "multipoles_3d": None,
+    "pharmacophore_features_3d": None,
+    "record": {
+        "id": {
+            "id": {
+                "cid": 14797
+            }
+        },
+        "atoms": {
+            "aid": [
+                1,
+                2,
+                3
+            ],
+            "element": [
+                19,
+                8,
+                1
+            ],
+            "charge": [
+                {
+                    "aid": 1,
+                    "value": 1
+                },
+                {
+                    "aid": 2,
+                    "value": -1
+                }
+            ]
+        },
+        "bonds": {
+            "aid1": [
+                1,
+                2
+            ],
+            "aid2": [
+                2,
+                3
+            ],
+            "order": [
+                7,
+                1
+            ]
+        },
+        "coords": [
+            {
+                "type": [
+                    1,
+                    5,
+                    255
+                ],
+                "aid": [
+                    1,
+                    2,
+                    3
+                ],
+                "conformers": [
+                    {
+                        "x": [
+                            2,
+                            2.866,
+                            3.403
+                        ],
+                        "y": [
+                            -0.25,
+                            0.25,
+                            -0.06
+                        ]
+                    }
+                ]
+            }
+        ],
+        "charge": 0,
+        "props": [
+            {
+                "urn": {
+                    "label": "Compound",
+                    "name": "Canonicalized",
+                    "datatype": 5,
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "ival": 1
+                }
+            },
+            {
+                "urn": {
+                    "label": "Compound Complexity",
+                    "datatype": 7,
+                    "implementation": "E_COMPLEXITY",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "fval": 2
+                }
+            },
+            {
+                "urn": {
+                    "label": "Count",
+                    "name": "Hydrogen Bond Acceptor",
+                    "datatype": 5,
+                    "implementation": "E_NHACCEPTORS",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "ival": 1
+                }
+            },
+            {
+                "urn": {
+                    "label": "Count",
+                    "name": "Hydrogen Bond Donor",
+                    "datatype": 5,
+                    "implementation": "E_NHDONORS",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "ival": 1
+                }
+            },
+            {
+                "urn": {
+                    "label": "Count",
+                    "name": "Rotatable Bond",
+                    "datatype": 5,
+                    "implementation": "E_NROTBONDS",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "ival": 0
+                }
+            },
+            {
+                "urn": {
+                    "label": "Fingerprint",
+                    "name": "SubStructure Keys",
+                    "datatype": 16,
+                    "parameters": "extended 2",
+                    "implementation": "E_SCREEN",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "binary": "00000371000020000040000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "Allowed",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "CAS-like Style",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "Markup",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "Preferred",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "Systematic",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "IUPAC Name",
+                    "name": "Traditional",
+                    "datatype": 1,
+                    "version": "2.7.0",
+                    "software": "Lexichem TK",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "potassium;hydroxide"
+                }
+            },
+            {
+                "urn": {
+                    "label": "InChI",
+                    "name": "Standard",
+                    "datatype": 1,
+                    "version": "1.07.2",
+                    "software": "InChI",
+                    "source": "iupac.org",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "InChI=1S/K.H2O/h;1H2/q+1;/p-1"
+                }
+            },
+            {
+                "urn": {
+                    "label": "InChIKey",
+                    "name": "Standard",
+                    "datatype": 1,
+                    "version": "1.07.2",
+                    "software": "InChI",
+                    "source": "iupac.org",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "KWYUFKZDYYNOTN-UHFFFAOYSA-M"
+                }
+            },
+            {
+                "urn": {
+                    "label": "Mass",
+                    "name": "Exact",
+                    "datatype": 1,
+                    "version": "2.2",
+                    "software": "PubChem",
+                    "source": "ncbi.nlm.nih.gov",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "55.96644614"
+                }
+            },
+            {
+                "urn": {
+                    "label": "Molecular Formula",
+                    "datatype": 1,
+                    "version": "2.2",
+                    "software": "PubChem",
+                    "source": "ncbi.nlm.nih.gov",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "HKO"
+                }
+            },
+            {
+                "urn": {
+                    "label": "Molecular Weight",
+                    "datatype": 1,
+                    "version": "2.2",
+                    "software": "PubChem",
+                    "source": "ncbi.nlm.nih.gov",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "56.106"
+                }
+            },
+            {
+                "urn": {
+                    "label": "SMILES",
+                    "name": "Absolute",
+                    "datatype": 1,
+                    "version": "2.3.0",
+                    "software": "OEChem",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "[OH-].[K+]"
+                }
+            },
+            {
+                "urn": {
+                    "label": "SMILES",
+                    "name": "Connectivity",
+                    "datatype": 1,
+                    "version": "2.3.0",
+                    "software": "OEChem",
+                    "source": "OpenEye Scientific Software",
+                    "release": "2025.06.30"
+                },
+                "value": {
+                    "sval": "[OH-].[K+]"
+                }
+            },
+            {
+                "urn": {
+                    "label": "Topological",
+                    "name": "Polar Surface Area",
+                    "datatype": 7,
+                    "implementation": "E_TPSA",
+                    "version": "3.4.8.18",
+                    "software": "Cactvs",
+                    "source": "Xemistry GmbH",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "fval": 1
+                }
+            },
+            {
+                "urn": {
+                    "label": "Weight",
+                    "name": "MonoIsotopic",
+                    "datatype": 1,
+                    "version": "2.2",
+                    "software": "PubChem",
+                    "source": "ncbi.nlm.nih.gov",
+                    "release": "2025.04.14"
+                },
+                "value": {
+                    "sval": "55.96644614"
+                }
+            }
+        ],
+        "count": {
+            "heavy_atom": 2,
+            "atom_chiral": 0,
+            "atom_chiral_def": 0,
+            "atom_chiral_undef": 0,
+            "bond_chiral": 0,
+            "bond_chiral_def": 0,
+            "bond_chiral_undef": 0,
+            "isotope_atom": 0,
+            "covalent_unit": 2,
+            "tautomers": -1
+        }
+    },
+    "rotatable_bond_count": 0,
+    "shape_fingerprint_3d": None,
+    "shape_selfoverlap_3d": None,
+    "tpsa": 1,
+    "undefined_atom_stereo_count": 0,
+    "undefined_bond_stereo_count": 0,
+    "volume_3d": None,
+    "xlogp": None
+}

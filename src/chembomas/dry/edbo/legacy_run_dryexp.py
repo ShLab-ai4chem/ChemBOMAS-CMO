@@ -50,13 +50,7 @@ PARTITION_METHOD_MAP = {
     }
 
 PSEUDO_METHOD_MAP = {
-    'SFT_1.0': 'data_volume_1/LLM_predict.pt',
-    'SFT_2.5': 'data_volume_2.5/LLM_predict.pt',
     'SFT_5.0': 'data_volume_5/LLM_predict.pt',
-    'SFT_10.0': 'data_volume_10/LLM_predict.pt',
-    'SFT_20.0': 'data_volume_20/LLM_predict.pt',
-    'SFT_40.0': 'data_volume_40/LLM_predict.pt',
-    'SFT_60.0': 'data_volume_60/LLM_predict.pt',
     }
 
 logger.remove()

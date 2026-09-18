@@ -21,6 +21,20 @@ dependencies = [
 
 [project.optional-dependencies]
 regression = ["datasets", "transformers", "peft", "accelerate"]
+rag = [
+  "openai",
+  "langchain",
+  "langchain-community",
+  "langchain-openai",
+  "langchain-text-splitters",
+  "faiss-cpu",
+  "pypdf",
+  "unstructured",
+  "sentence-transformers",
+  "pubchempy",
+  "requests",
+  "google-search-results",
+]
 dev = ["pytest"]
 
 [tool.setuptools.packages.find]

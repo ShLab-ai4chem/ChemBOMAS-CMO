@@ -15,6 +15,7 @@ prediction files can still be supplied through the command-line options.
 
 ```text
 src/chembomas/       reusable BO/MCTS code and task entry points
+Rag-Cluster/         optional API-backed literature ranking and clustering scripts
 data/wet/            FD_wqp inputs and compact CSV result tables
 data/dry/            EDBO inputs and compact regression tables
 results/             paper-facing summaries and figures
@@ -56,7 +57,7 @@ EDBO benchmark:
 
 ```bash
 PYTHONPATH=src python -m chembomas.dry.edbo.run \
-  --iteration 20
+  --iteration 5
 ```
 
 The bundled `data_volume_5` prediction tensor is used by default. Use
@@ -64,7 +65,8 @@ The bundled `data_volume_5` prediction tensor is used by default. Use
 
 See [docs/data-manifest.md](docs/data-manifest.md) for the data contents and
 [docs/model-release.md](docs/model-release.md) for the external model artifact
-contract.
+contract. `Rag-Cluster/` contains the optional literature-assisted workflow;
+users must provide their own API key and local document/model paths.
 
 ## Citation and license
 

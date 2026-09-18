@@ -1,0 +1,367 @@
+{
+    "Base": {
+        "强碱": [
+            {
+                "Name": "NaOH",
+                "SMILES": "[OH-].[Na+]"
+            },
+            {
+                "Name": "KOH",
+                "SMILES": "[OH-].[K+]"
+            },
+            {
+                "Name": "LiOH",
+                "SMILES": "[Li+].[OH-]"
+            },
+            {
+                "Name": "NaOCH3",
+                "SMILES": "C[O-].[Na+]"
+            },
+            {
+                "Name": "KOCH3",
+                "SMILES": "C[O-].[K+]"
+            },
+            {
+                "Name": "LiOCH3",
+                "SMILES": "[Li+].C[O-]"
+            },
+            {
+                "Name": "t-BuOK",
+                "SMILES": "CC(C)(C)[O-].[K+]"
+            },
+            {
+                "Name": "t-BuONa",
+                "SMILES": "CC(C)(C)[O-].[Na+]"
+            },
+            {
+                "Name": "t-BuOLi",
+                "SMILES": "[Li+].CC(C)(C)[O-]"
+            },
+            {
+                "Name": "NaOPh",
+                "SMILES": "C1=CC=C(C=C1)[O-].[Na+]"
+            },
+            {
+                "Name": "K2CO3",
+                "SMILES": "C(=O)([O-])[O-].[K+].[K+]"
+            },
+            {
+                "Name": "Li2CO3",
+                "SMILES": "[Li+].[Li+].C(=O)([O-])[O-]"
+            },
+            {
+                "Name": "Cs2CO3",
+                "SMILES": "C(=O)([O-])[O-].[Cs+].[Cs+]"
+            }
+        ],
+        "中碱": [
+            {
+                "Name": "K3PO4",
+                "SMILES": "[K+].[K+].[K+].[O-]P([O-])([O-])=O"
+            },
+            {
+                "Name": "Na3PO4",
+                "SMILES": "[Na+].[Na+].[Na+].[O-]P([O-])([O-])=O"
+            },
+            {
+                "Name": "Li3PO4",
+                "SMILES": "[Li+].[Li+].[Li+].[O-]P([O-])([O-])=O"
+            }
+        ],
+        "弱碱": [
+            {
+                "Name": "KOAc",
+                "SMILES": "CC(=O)[O-].[K+]"
+            },
+            {
+                "Name": "CsOAc",
+                "SMILES": "CC(=O)[O-].[Cs+]"
+            },
+            {
+                "Name": "NaOAc",
+                "SMILES": "CC(=O)[O-].[Na+]"
+            },
+            {
+                "Name": "KOPhCO",
+                "SMILES": "C1=CC=C(C=C1)C(=O)[O-].[K+]"
+            },
+            {
+                "Name": "LiOPhCO",
+                "SMILES": "[Li+].C1=CC=C(C=C1)C(=O)[O-]"
+            },
+            {
+                "Name": "K2HPO4",
+                "SMILES": "[K+].[K+].OP(O)([O-])=O"
+            },
+            {
+                "Name": "KH2PO4",
+                "SMILES": "[K+].OP(O)([O-])=O"
+            },
+            {
+                "Name": "KHCO3",
+                "SMILES": "C(=O)([O-])[O-].[K+]"
+            },
+            {
+                "Name": "NaHSO3",
+                "SMILES": "OS(=O)O[O-].[Na+]"
+            },
+            {
+                "Name": "NaOTf",
+                "SMILES": "C(F)(F)(F)S(=O)(=O)[O-].[Na+]"
+            }
+        ]
+    },
+    "Solvent": {
+        "强极性": [
+            {
+                "Name": "DMA",
+                "SMILES": "CC1=CC(=C(C=C1)N)",
+                "介电常数": 37.8
+            },
+            {
+                "Name": "DMF",
+                "SMILES": "CN(C)C=O",
+                "介电常数": 37.5
+            },
+            {
+                "Name": "MeCN",
+                "SMILES": "CC#N",
+                "介电常数": 36.7
+            },
+            {
+                "Name": "MeOH",
+                "SMILES": "CO",
+                "介电常数": 32.7
+            },
+            {
+                "Name": "NMP",
+                "SMILES": "CN1CCCC1=O",
+                "介电常数": 32.2
+            }
+        ],
+        "中极性": [
+            {
+                "Name": "Benzonitrile",
+                "SMILES": "C1=CC=C(C=C1)C#N",
+                "介电常数": 25.2
+            },
+            {
+                "Name": "EtOH",
+                "SMILES": "CCO",
+                "介电常数": 24.3
+            },
+            {
+                "Name": "Acetone",
+                "SMILES": "CC(=O)C",
+                "介电常数": 20.7
+            }
+        ],
+        "中低极性": [
+            {
+                "Name": "DCE",
+                "SMILES": "C(CCl)CCl",
+                "介电常数": 10.36
+            },
+            {
+                "Name": "三氟甲苯",
+                "SMILES": "C1=CC=C(C=C1)C(F)(F)F",
+                "介电常数": 9.0
+            },
+            {
+                "Name": "DCM",
+                "SMILES": "C(CCl)Cl",
+                "介电常数": 8.93
+            },
+            {
+                "Name": "THF",
+                "SMILES": "C1CCOC1",
+                "介电常数": 7.5
+            },
+            {
+                "Name": "Me-THF",
+                "SMILES": "CC1CCCO1",
+                "介电常数": 6.8
+            },
+            {
+                "Name": "EA",
+                "SMILES": "CCOC(=O)C",
+                "介电常数": 6.02
+            },
+            {
+                "Name": "氯苯",
+                "SMILES": "C1=CC=C(C=C1)Cl",
+                "介电常数": 5.6
+            },
+            {
+                "Name": "DME",
+                "SMILES": "COCCOC",
+                "介电常数": 5.5
+            },
+            {
+                "Name": "TBME",
+                "SMILES": "CC(C)(C)OC",
+                "介电常数": 4.5
+            }
+        ],
+        "非极性": [
+            {
+                "Name": "均三甲苯",
+                "SMILES": "CC1=CC(=CC(=C1)C)C",
+                "介电常数": 2.3
+            },
+            {
+                "Name": "甲苯",
+                "SMILES": "CC1=CC=CC=C1",
+                "介电常数": 2.4
+            },
+            {
+                "Name": "己烷",
+                "SMILES": "CCCCCC",
+                "介电常数": 1.88
+            },
+            {
+                "Name": "Dioxane",
+                "SMILES": "C1COCCO1",
+                "介电常数": 2.2
+            }
+        ]
+    },
+    "Catalyst": {
+        "0价": [
+            {
+                "Name": "Pd2(dba)3",
+                "SMILES": "C1=CC=C(C=C1)/C=C/C(=O)/C=C/C2=CC=CC=C2.[Pd].[Pd]"
+            },
+            {
+                "Name": "Pd(dba)2",
+                "SMILES": "C1=CC=C(C=C1)C2=C3C(=C2C3=O)C4=CC=CC=C4.[Pd]"
+            },
+            {
+                "Name": "Pd(PPh3)4",
+                "SMILES": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3.[Pd]"
+            }
+        ],
+        "2价": [
+            {
+                "Name": "PdCl2",
+                "SMILES": "Cl[Pd]Cl"
+            },
+            {
+                "Name": "Pd(OAc)2",
+                "SMILES": "CC(=O)[O-].[Pd+2]"
+            },
+            {
+                "Name": "PdCl2(PPh3)2",
+                "SMILES": "Cl[Pd]Cl.C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+            },
+            {
+                "Name": "Pd(dppf)Cl2",
+                "SMILES": "Cl[Pd]Cl.[Fe]C1C(P(C2=CC=CC=C2)C3=CC=CC=C3)C4C1C4"
+            }
+        ]
+    },
+    "Ligand": {
+        "基准": [
+            {
+                "Name": "PPh3",
+                "SMILES": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3"
+            },
+            {
+                "Name": "None (无配体)",
+                "SMILES": null
+            }
+        ],
+        "吸电子配体": [
+            {
+                "Name": "Tris[4-(trifluoromethyl)phenyl]phosphane",
+                "SMILES": "C1=CC(=CC=C1C(F)(F)F)P(C2=CC=C(C=C2)C(F)(F)F)C3=CC=C(C=C3)C(F)(F)F"
+            }
+        ],
+        "高位阻，给电子": [
+            {
+                "Name": "dicyclohexyl-[2-(2-methoxyphenyl)phenyl]phosphane",
+                "SMILES": "COC1=CC=CC=C1C2=CC=CC=C2P(C3CCCCC3)C4CCCCC4"
+            },
+            {
+                "Name": "[2-[2-di(propan-2-yl)phosphanyl-6-methoxyphenyl]-3-methoxyphenyl]-di(propan-2-yl)phosphane",
+                "SMILES": "CC(C)P(C1=CC=CC(=C1C2=C(C=CC=C2P(C(C)C)C(C)C)OC)OC)C(C)C"
+            },
+            {
+                "Name": "5-diphenylphosphanyl-9,9-dimethylxanthen-4-yl-diphenylphosphane",
+                "SMILES": "CC1(C2=C(C=CC=C2)P(C3=CC=CC=C3)C4=CC=CC=C4)OC5=C1C=CC=C5P(C6=CC=CC=C6)C7=CC=CC=C7"
+            },
+            {
+                "Name": "[2-(2-diphenylphosphanylphenoxy)phenyl]-diphenylphosphane",
+                "SMILES": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3OC4=CC=CC=C4P(C5=CC=CC=C5)C6=CC=CC=C6"
+            }
+        ],
+        "极高位阻结构": [
+            {
+                "Name": "[3-diphenylphosphanyl-2-(diphenylphosphanylmethyl)-2-methylpropyl]-diphenylphosphane",
+                "SMILES": "CC(CP(C1=CC=CC=C1)C2=CC=CC=C2)CP(C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "[2-(2-diphenylphosphanylphenyl)phenyl]-diphenylphosphane",
+                "SMILES": "C1=CC=C(C=C1)P(C2=CC=CC=C2)C3=CC=CC=C3C4=CC=CC=C4P(C5=CC=CC=C5)C6=CC=CC=C6"
+            },
+            {
+                "Name": "bis(2-diphenylphosphanylethyl)-phenylphosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCP(C2=CC=CC=C2)C3=CC=CC=C3)CCP(C4=CC=CC=C4)C5=CC=CC=C5"
+            },
+            {
+                "Name": "[1-(2-diphenylphosphanylnaphthalen-1-yl)naphthalen-2-yl]-diphenylphosphane",
+                "SMILES": "C1=CC=C(C=C1)P(C2=C(C3=CC=CC=C3C=C2)C4=C(C=CC5=CC=CC=C54)P(C6=CC=CC=C6)C7=CC=CC=C7)C8=CC=CC=C8"
+            }
+        ],
+        "高位阻，中弱给电子": [
+            {
+                "Name": "N,N-dimethyl-12,14-dioxa-13-phosphapentacyclo[...]tricosa-amine",
+                "SMILES": "CN(C)P1OC2=C(C3=CC=CC=C3C=C2)C4=C(O1)C=CC5=CC=CC=C54"
+            },
+            {
+                "Name": "N,N-bis[(1R)-1-phenylethyl]-12,14-dioxa-13-phosphapentacyclo[...]tricosa-amine",
+                "SMILES": "C[C@H](C1=CC=CC=C1)N([C@H](C)C2=CC=CC=C2)P3OC4=C(C5=CC=CC=C5C=C4)C6=C(O3)C=CC7=CC=CC=C76"
+            }
+        ],
+        "中等位阻，电子效应中性": [
+            {
+                "Name": "Diphenylphosphanylmethyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "2-Diphenylphosphanylethyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "3-Diphenylphosphanylpropyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "4-Diphenylphosphanylbutyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "5-Diphenylphosphanylpentyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCCCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            },
+            {
+                "Name": "6-Diphenylphosphanylhexyl(diphenyl)phosphane",
+                "SMILES": "C1=CC=C(C=C1)P(CCCCCCP(C2=CC=CC=C2)C3=CC=CC=C3)C4=CC=CC=C4"
+            }
+        ],
+        "中等位阻，强给电子": [
+            {
+                "Name": "Tris(4-methoxyphenyl)phosphane",
+                "SMILES": "COC1=CC=C(C=C1)P(C2=CC=C(C=C2)OC)C3=CC=C(C=C3)OC"
+            },
+            {
+                "Name": "Tris(4-methylphenyl)phosphane",
+                "SMILES": "CC1=CC=C(C=C1)P(C2=CC=C(C=C2)C)C3=CC=C(C=C3)C"
+            },
+            {
+                "Name": "Tris(2-methylphenyl)phosphane",
+                "SMILES": "CC1=CC=CC=C1P(C2=CC=CC=C2C)C3=CC=CC=C3C"
+            }
+        ]
+    }
+}

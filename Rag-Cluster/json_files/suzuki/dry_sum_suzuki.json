@@ -1,0 +1,34 @@
+{
+  "ligand": [
+    "Xantphos",
+    "dtbpf",
+    "P(Ph)3",
+    "XPhos",
+    "P(tBu)3",
+    "CataCXium A",
+    "P(Cy)3",
+    "dppf",
+    "nothing",
+    "AmPhos",
+    "SPhos",
+    "P(o-Tol)3"
+  ],
+  "base": [
+    "KOH",
+    "nothing",
+    "Et3N",
+    "K3PO4",
+    "LiOtBu",
+    "CsF",
+    "NaOH",
+    "NaHCO3"
+  ],
+  "solvent": [
+    "MeOH",
+    "DMF",
+    "MeOH/H2O_V2 9:1",
+    "THF",
+    "THF_V2",
+    "MeCN"
+  ]
+}

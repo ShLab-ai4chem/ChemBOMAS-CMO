@@ -1,0 +1,52 @@
+{
+    "base": [
+        [
+            "KOH",
+            "NaOH",
+            "LiOtBu"
+        ],
+        [
+            "K3PO4",
+            "CsF",
+            "Et3N"
+        ],
+        [
+            "NaHCO3",
+            "nothing"
+        ]
+    ],
+    "ligand": [
+        [
+            "Xantphos",
+            "dtbpf",
+            "dppf"
+        ],
+        [
+            "XPhos",
+            "P(tBu)3",
+            "CataCXium A",
+            "P(Cy)3",
+            "AmPhos",
+            "SPhos"
+        ],
+        [
+            "P(Ph)3",
+            "P(o-Tol)3",
+            "nothing"
+        ]
+    ],
+    "solvent": [
+        [
+            "MeOH",
+            "MeOH/H2O_V2 9:1"
+        ],
+        [
+            "DMF",
+            "MeCN"
+        ],
+        [
+            "THF",
+            "THF_V2"
+        ]
+    ]
+}

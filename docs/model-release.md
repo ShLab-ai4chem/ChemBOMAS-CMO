@@ -11,7 +11,7 @@ The public entry points accept a local prediction tensor:
 ```bash
 python -m chembomas.wet.fd_wqp.run --round round_7
 python -m chembomas.dry.edbo.run \
-  --iteration 20
+  --iteration 5
 ```
 
 The bundled tensors are readable by `torch.load` and contain one prediction per row

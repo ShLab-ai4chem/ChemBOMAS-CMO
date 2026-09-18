@@ -1,0 +1,74 @@
+You are an expert in chemistry and scientific writing evaluation. Please strictly assess the quality of the following response based on the specified criteria.
+
+---
+
+**Input**
+
+- **Question**: {query}
+- **Answer**: {response}
+
+---
+
+**Evaluation Criteria**
+
+1. **Relevance**.
+   - Core Requirement: Must **positively and directly address** the original question
+   - Key restrictions.
+     *An answer that includes a “cannot provide” type of rejection statement is automatically considered not to fulfill this item.
+     **Additional background knowledge** is not a substitute for **direct answers**. 2.
+
+2. **Accuracy**.
+   - Must contain **specific and precise chemical data** (name/structure/value/condition)
+   - Approximate descriptions (e.g., “around 13”) are considered imprecise.
+
+3. **Clarity**.
+   - Any ambiguity (e.g. “typically”, “higher”, etc.) is prohibited.
+   - The scope of application of the data must be clearly labeled (e.g., concentration dependencies must be specified).
+
+---
+
+**Instructions**
+
+- You must select **only one** of the following assessment conclusions:
+
+  - **Sufficient**: Fully meets all three criteria.
+  - **Partially sufficient**: Meets one or two criteria, but lacks critical content or precision.
+  - **Insufficient**: Fails to address the question, contains major flaws, or lacks chemical validity.
+
+- **Do not** provide general or vague descriptions.
+
+- You **must** provide a concrete explanation that justifies the evaluation decision, with reference to specific parts of the answer.
+
+---
+
+**Decision Rules**
+1. **Sufficient**
+  - Trigger condition: The following conditions are met simultaneously:
+    - Direct answer to the question (no rejection statements);
+    - Provision of precise data;
+    - Zero ambiguity.
+
+2. **Partially sufficient**
+  - Trigger condition: any of the following:
+    - Indirect answer with partially sufficient data;
+    - Direct answer with imprecise data;
+    - Direct answer with imprecise data. Contains vague terminology but the core content is correct.
+
+3. **Insufficient**
+  - Trigger condition: any of the following occurs:
+    - Complete failure to answer the question;
+    - Key chemical facts are incorrect;
+    - All vague statements.
+
+---
+
+**Output Format**
+
+```
+Evaluation result: [Sufficient / Partially sufficient / Insufficient]
+
+Explanation:
+- Relevance: [Your detailed comment]
+- Accuracy: [Your detailed comment]
+- Clarity: [Your detailed comment]
+```
