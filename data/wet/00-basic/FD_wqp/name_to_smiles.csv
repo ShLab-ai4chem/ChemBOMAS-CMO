@@ -1,0 +1,12 @@
+﻿Palladium_Source,Palladium_Source_CAS,Chiral_Ligand,Chiral_Ligand_SMILES,Solvent,Solvent_SMILES,Temperature,Additive,Base,Base_CAS
+Pd(dba)2,,L_2OMe,COc1cccc(OC)c1[C@H](N[S@](=O)C(C)(C)C)c1ccccc1P(c1ccccc1)c1ccccc1,DCM,ClCCl,80,AgI,Cs2CO3,
+Pd2(dba)3·CHCl3,,L_3OMe,COc1cc(OC)c([C@H](N[S@](=O)C(C)(C)C)c2ccccc2P(c2ccccc2)c2ccccc2)c(OC)c1,THF,C1CCOC1,100,CuI,K2CO3,
+Pd(TFA)2,,L_3OMe_CF3,COc1cc(OC)c([C@H](N[S@](=O)C(C)(C)C)c2cc(C(F)(F)F)ccc2P(c2ccccc2)c2ccccc2)c(OC)c1,CH3CN,CC#N,120,NaI,NaOtBu,
+Pd(acac)2,,L_OMe_2tBu,COc1c(C(C)(C)C)cc([C@H](N[S@](=O)C(C)(C)C)c2ccccc2P(c2ccccc2)c2ccccc2)cc1C(C)(C)C,EA,CC(OCC)=O,,KI,CsOPiv,
+[Pd(π-cinnamyl)Cl]2,12131-44-1,L_2F_CF3,CC(C)(C)[S@@](=O)N[C@H](c1cc(C(F)(F)F)ccc1P(c1ccccc1)c1ccccc1)c1c(F)cccc1F,"1,4-dioxane",C1COCCO1,,CsI,KOH,
+,,L_2F_2OMe,COc1cc([C@@H](N[S@](=O)C(C)(C)C)c2c(F)cccc2F)c(P(c2ccccc2)c2ccccc2)cc1OC,DCE,ClCCCl,,RbI,KOtBu,
+,,,,,,,,KOAc,
+,,,,,,,,K3PO4,
+,,,,,,,,NMeCy2,
+,,,,,,,,Et3N,
+,,,,,,,,PMP,79-55-0

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+*.log
+LLM_predict.pt
+*_raw_results_*.pt
+!data/dry/00-basic/EDBO/new_b30_50.pt
+checkpoints/
+model_weights/
+wandb/

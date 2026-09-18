@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "ChemBOMAS-CMO"
+message: "If you use this repository, please cite the accompanying ChemBOMAS paper."
+type: software
+authors:
+  - name: "ChemBOMAS contributors"
+year: 2026
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/<organization>/ChemBOMAS-CMO"
+abstract: "Public code and compact data release for the FD_wqp wet-lab and EDBO dry-experiment ChemBOMAS applications."

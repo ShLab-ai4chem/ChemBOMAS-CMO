@@ -1,0 +1,15 @@
+Palladium_Source,Chiral_Ligand,Solvent,Temperature,Additive,Base
+Pd(acac)2,L_2F_CF3,DCM,120,AgI,K2CO3
+Pd(dba)2,L_2F_CF3,"1,4-dioxane",80,AgI,KOtBu
+Pd2(dba)3·CHCl3,L_OMe_2tBu,"1,4-dioxane",100,NaI,KOAc
+Pd(acac)2,L_OMe_2tBu,DCM,80,NaI,Cs2CO3
+[Pd(π-cinnamyl)Cl]2,L_2F_CF3,DCM,120,CuI,NMeCy2
+[Pd(π-cinnamyl)Cl]2,L_3OMe_CF3,"1,4-dioxane",100,Nothing,NMeCy2
+Pd(dba)2,L_2OMe,DCM,80,CsI,CsOPiv
+Pd(TFA)2,L_OMe_2tBu,"1,4-dioxane",120,CuI,KOAc
+[Pd(π-cinnamyl)Cl]2,L_OMe_2tBu,DCE,120,Nothing,KOAc
+Pd(TFA)2,L_2OMe,THF,120,Nothing,K3PO4
+Pd2(dba)3·CHCl3,L_OMe_2tBu,EA,100,CsI,KOH
+Pd(acac)2,L_2F_CF3,DCE,120,Nothing,K2CO3
+[Pd(π-cinnamyl)Cl]2,L_2F_2OMe,EA,100,RbI,CsOPiv
+Pd(TFA)2,L_2F_CF3,THF,100,NaI,KOH

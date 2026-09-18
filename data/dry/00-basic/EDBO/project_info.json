@@ -1,0 +1,11 @@
+{
+    "dataset_type": "dry",
+    "target": [
+        "Yield",
+        "Cost"
+    ],
+    "column_mapping": {
+        "Ligand": "Ligand_SMILES",
+        "Solvent": "Solvent_SMILES"
+    }
+}

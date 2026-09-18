@@ -1,0 +1,10 @@
+{
+    "dataset_type": "wet",
+    "target": [
+        "Yield",
+        "Selectivity"
+    ],
+    "column_mapping": {
+        "Chiral_Ligand": "Chiral_Ligand_SMILES"
+    }
+}
