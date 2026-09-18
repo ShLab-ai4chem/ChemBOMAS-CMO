@@ -11,7 +11,7 @@ release.
 | `src/chembomas/wet/fd_wqp/**` | FD_wqp design implementation and command-line adapter |
 | `src/chembomas/regression/**` | Prompt-generation and model-adapter components for the released tasks |
 
-The following are intentionally excluded: `Rag-Cluster`, other task names, private
+The following are intentionally excluded: unpublished task variants, private
 service clients, API keys, private absolute paths, raw run directories, logs, model
 weights, per-round prediction tensors, and exploratory `.pt` outputs. The release is
 self-contained and does not depend on any private source tree.
