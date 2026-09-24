@@ -19,5 +19,6 @@ release is self-contained and does not depend on any private source tree.
 
 The small split tensor is retained because it is a frozen EDBO input rather than a
 model checkpoint. The paper prediction tensors are bundled in this repository;
-the separately released model weights are only needed when regenerating those
-predictions from scratch.
+the separately released model weights
+([`AI4Chem/ChemBOMAS-basemodel`](https://huggingface.co/AI4Chem/ChemBOMAS-basemodel))
+are only needed when regenerating those predictions from scratch.

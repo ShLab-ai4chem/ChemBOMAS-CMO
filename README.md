@@ -8,8 +8,10 @@ condition discovery in two settings:
 - **EDBO**: dry-experiment benchmark and ablation studies.
 
 The prediction tensors used by the paper are included with the corresponding data
-directories. Large language-model checkpoints are distributed separately; external
-prediction files can still be supplied through the command-line options.
+directories. Large language-model checkpoints are distributed separately on
+Hugging Face at
+[`AI4Chem/ChemBOMAS-basemodel`](https://huggingface.co/AI4Chem/ChemBOMAS-basemodel);
+external prediction files can still be supplied through the command-line options.
 
 ## Repository layout
 
