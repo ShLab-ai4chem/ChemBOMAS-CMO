@@ -1,0 +1,11 @@
+task: FD_wqp
+scope: wet
+round: round_7
+data_root: data/wet
+model_predictions: data/wet/02-regression/FD_wqp/round_7/LLM_predict.pt
+objective: [Yield, Selectivity]
+category: [Palladium_Source, Chiral_Ligand, Solvent, Temperature, Additive, Base]
+preprocess: num_logic
+preprocess_kwargs: {p: 1.0, q: 1.0, a: 0.3, b: 80}
+num_sample: 8
+kappa: 0.1

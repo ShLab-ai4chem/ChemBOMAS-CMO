@@ -1,0 +1,88 @@
+{
+    "Palladium_Source": [
+        [
+            "Pd(dba)2",
+            "Pd2(dba)3·CHCl3"
+        ],
+        [
+            "Pd(TFA)2",
+            "Pd(acac)2"
+        ],
+        [
+            "[Pd(π-cinnamyl)Cl]2"
+        ]
+    ],
+    "Chiral_Ligand": [
+        [
+            "L_2OMe",
+            "L_3OMe",
+            "L_3OMe_CF3"
+        ],
+        [
+            "L_OMe_2tBu"
+        ],
+        [
+            "L_2F_CF3",
+            "L_2F_2OMe"
+        ]
+    ],
+    "Solvent": [
+        [
+            "DCM",
+            "DCE"
+        ],
+        [
+            "THF",
+            "1,4-dioxane"
+        ],
+        [
+            "CH3CN",
+            "EA"
+        ]
+    ],
+    "Temperature": [
+        [
+            "80"
+        ],
+        [
+            "100"
+        ],
+        [
+            "120"
+        ]
+    ],
+    "Additive": [
+        [
+            "Nothing"
+        ],
+        [
+            "AgI",
+            "CuI"
+        ],
+        [
+            "NaI",
+            "KI",
+            "CsI",
+            "RbI"
+        ]
+    ],
+    "Base": [
+        [
+            "Cs2CO3",
+            "K2CO3",
+            "KOAc",
+            "K3PO4"
+        ],
+        [
+            "NaOtBu",
+            "CsOPiv",
+            "KOH",
+            "KOtBu"
+        ],
+        [
+            "NMeCy2",
+            "Et3N",
+            "PMP"
+        ]
+    ]
+}

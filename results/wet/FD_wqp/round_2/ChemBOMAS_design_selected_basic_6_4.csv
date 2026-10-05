@@ -1,0 +1,9 @@
+rank,Palladium_Source,Chiral_Ligand,Solvent,Temperature,Additive,Base
+1,[Pd(π-cinnamyl)Cl]2,L_2F_2OMe,DCE,120,Nothing,K3PO4
+2,[Pd(π-cinnamyl)Cl]2,L_2F_CF3,EA,120,Nothing,K3PO4
+3,[Pd(π-cinnamyl)Cl]2,L_OMe_2tBu,DCE,80,Nothing,K3PO4
+4,[Pd(π-cinnamyl)Cl]2,L_2F_CF3,DCE,100,Nothing,K3PO4
+5,Pd(TFA)2,L_OMe_2tBu,CH3CN,120,Nothing,K3PO4
+6,[Pd(π-cinnamyl)Cl]2,L_OMe_2tBu,DCE,120,Nothing,K3PO4
+7,[Pd(π-cinnamyl)Cl]2,L_2F_CF3,DCE,80,Nothing,K3PO4
+8,Pd(dba)2,L_3OMe_CF3,DCE,80,CsI,K2CO3

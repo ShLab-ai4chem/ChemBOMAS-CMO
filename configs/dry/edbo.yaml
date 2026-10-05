@@ -1,0 +1,12 @@
+task: EDBO
+scope: dry
+data_root: data/dry
+prediction_artifact: data/dry/02-regression/EDBO/data_volume_5/LLM_predict.pt
+partition_method: expert
+dataset_name: EDBO
+objective: [Yield, Cost]
+category: [Ligand, Base, Solvent, Concentration, Temperature]
+preprocess: num_logic
+preprocess_kwargs: {p: 1.0, q: 1.0, a: -60.0, b: 0.1}
+iteration: 5
+repeat_time: 1

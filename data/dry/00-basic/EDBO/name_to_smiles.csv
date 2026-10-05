@@ -1,0 +1,13 @@
+﻿Ligand,Ligand_SMILES,Solvent,Solvent_SMILES
+BrettPhos,COc1ccc(OC)c(P(C2CCCCC2)C2CCCCC2)c1-c1c(C(C)C)cc(C(C)C)cc1C(C)C,BuOAc,CCCCOC(C)=O
+PPhtBu2,CC(C)(C)P(c1ccccc1)C(C)(C)C,BuCN,CCCC#N
+tBPh-CPhos,CN(C)c1cccc(N(C)C)c1-c1ccccc1P(c1ccccc1)C(C)(C)C,p-Xylene,Cc1ccc(C)cc1
+PCy3 HBF4,C1CCC(P(C2CCCCC2)C2CCCCC2)CC1,DMAc,CC(=O)N(C)C
+PPh3,c1ccc(P(c2ccccc2)c2ccccc2)cc1,,
+X-Phos,CC(C)c1cc(C(C)C)c(-c2ccccc2P(C2CCCCC2)C2CCCCC2)c(C(C)C)c1,,
+GorlosPhos HBF4,CC(C)Oc1cccc(OC(C)C)c1P(C1CCCCC1)C1CCCCC1,,
+JackiePhos,COc1ccc(OC)c(P(c2cc(C(F)(F)F)cc(C(F)(F)F)c2)c2cc(C(F)(F)F)cc(C(F)(F)F)c2)c1-c1c(C(C)C)cc(C(C)C)cc1C(C)C,,
+CgMe-PPh,CC12C[C@]3(C)O[C@@](C)(C[C@@](C)(O3)P1c1ccccc1)O2,,
+PPhMe2,CP(C)c1ccccc1,,
+P(fur)3,c1coc(P(c2ccco2)c2ccco2)c1,,
+PPh2Me,CP(c1ccccc1)c1ccccc1,,

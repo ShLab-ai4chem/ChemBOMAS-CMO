@@ -1,0 +1,9 @@
+Palladium_Source,Chiral_Ligand,Solvent,Temperature,Additive,Base
+Pd2(dba)3·CHCl3,L_3OMe_CF3,DCE,120,KI,CsOPiv
+Pd(dba)2,L_3OMe_CF3,DCM,100,KI,KOtBu
+Pd2(dba)3·CHCl3,L_3OMe_CF3,DCE,120,CsI,PMP
+Pd2(dba)3·CHCl3,L_3OMe_CF3,DCE,100,KI,PMP
+Pd(dba)2,L_3OMe,DCM,120,CuI,Et3N
+Pd2(dba)3·CHCl3,L_3OMe_CF3,DCE,120,KI,KOAc
+Pd2(dba)3·CHCl3,L_2OMe,DCE,120,Nothing,CsOPiv
+Pd2(dba)3·CHCl3,L_3OMe,CH3CN,80,AgI,K2CO3

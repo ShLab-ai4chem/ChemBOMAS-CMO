@@ -1,0 +1,38 @@
+{
+    "Ligand": [
+        "BrettPhos",
+        "PPhtBu2",
+        "tBPh-CPhos",
+        "PCy3 HBF4",
+        "PPh3",
+        "X-Phos",
+        "GorlosPhos HBF4",
+        "JackiePhos",
+        "CgMe-PPh",
+        "PPhMe2",
+        "P(fur)3",
+        "PPh2Me"
+    ],
+    "Base": [
+        "KOAc",
+        "CsOAc",
+        "KOPiv",
+        "CsOPiv"
+    ],
+    "Solvent": [
+        "BuOAc",
+        "BuCN",
+        "p-Xylene",
+        "DMAc"
+    ],
+    "Concentration": [
+        "0.1",
+        "0.057",
+        "0.153"
+    ],
+    "Temperature": [
+        "90",
+        "105",
+        "120"
+    ]
+}

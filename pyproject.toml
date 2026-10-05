@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chembomas-cmo"
+version = "0.1.0"
+description = "ChemBOMAS paper release for FD_wqp and EDBO"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "torch",
+  "tqdm",
+  "loguru",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+regression = ["datasets", "transformers", "peft", "accelerate"]
+rag = [
+  "openai",
+  "langchain",
+  "langchain-community",
+  "langchain-openai",
+  "langchain-text-splitters",
+  "faiss-cpu",
+  "pypdf",
+  "unstructured",
+  "sentence-transformers",
+  "pubchempy",
+  "requests",
+  "google-search-results",
+]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

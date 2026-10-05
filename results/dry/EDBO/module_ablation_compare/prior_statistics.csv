@@ -1,0 +1,10 @@
+metric,value
+prior_split_key,train
+target_column,Yield
+prior_sample_count,18
+mean,39.90277777777778
+std,5.405875204663446
+variance,29.223486728395056
+median,38.56
+min,32.04
+max,49.57
